@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="">
+    <title>Evaluacion final</title>
+</head>
+
+<body>
+    <svg>
+        <image xlink:href="../resources/img/model.svg" width="200px" heigth="300px" x="-10px" y="-80px"></image>
+    </svg>
+    <header>
+        <h1>Resumen Curricular</h1>
+        <ul>
+            <li>
+                <p><strong>Nombres:</strong> Ricardo Javier</p>
+            </li>
+            <li>
+                <p><strong>Apellidos:</strong>Bravo Sandoval</p>
+            </li>
+            <li>
+                <p><strong>Fecha de Nacimiento:</strong> 17 de Agosto 1989</p>
+            </li>
+            <li>
+                <p><strong>Lugar de Nacimiento:</strong> Quito</p>
+            </li>
+        </ul>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../paginas/educacion.html">Educacion</a>
+            </li>
+            <li>
+                <a href="../paginas/experiencia.html">Experiencia</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Educacion</h2>
+        <table id="data" border="1">
+            <tr>
+                <th>Añio</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>CEC EPN</td>
+                <td>Ecuador</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>ERNO</td>
+                <td>Ecuador</td>
+                <td>Si</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>SAE</td>
+                <td>Ecuador</td>
+                <td>Si</td>
+            </tr>
+        </table>
+        <h1>Agregar Estudios</h1>
+        <form id="form" name="frmContacto" autocomplete="on">
+            <label for="anio">Año:</label>
+            <select>
+                <option>Seleccione Opcion</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+            </select>
+            <p>
+                <label for="institucion">Institución:</label>
+                <input type="text" id="institucion">
+            </p>
+            <p>
+                <label for="lugar">Año:</label>
+                <input type="text" id="lugar">
+            </p>
+            <p>
+                <label for="culmino">¿Culminó?</label>
+                <b>Si</b><input type="radio" name="si">
+                <b>No</b><input type="radio" name="no">
+            </p>
+
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+    </section>
+    <footer>
+        <address>
+            <h3>Contacto</h3>
+            <ul>
+                <li><strong>Email:</strong> <span>rbravo1989@gmail.com</span></li>
+                <li><strong>Telefono:</strong> <span>123456</span></li>
+                <li><strong>Direccion:</strong> <span>Av. Siempre vivas</span></li>
+            </ul>
+        </address>
+    </footer>
+</body>
+
+</html>
